@@ -1,0 +1,37 @@
+{
+  "name": "quartz-theme-color",
+  "version": "1.0.0",
+  "description": "Quartz plugin that keeps browser toolbars in sync with the site theme.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Alex Korovyansky",
+  "homepage": "https://github.com/AlexKorovyansky/quartz-theme-color",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlexKorovyansky/quartz-theme-color"
+  },
+  "keywords": [
+    "quartz",
+    "quartz-plugin",
+    "theme-color",
+    "safari",
+    "darkmode"
+  ],
+  "main": "./dist/index.js",
+  "exports": {
+    ".": "./dist/index.js",
+    "./package.json": "./package.json"
+  },
+  "quartz": {
+    "name": "quartz-theme-color",
+    "displayName": "Theme Color",
+    "category": "transformer",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultOrder": 48,
+    "defaultEnabled": true,
+    "defaultOptions": {},
+    "optionSchema": {}
+  }
+}
